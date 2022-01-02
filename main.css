@@ -1,0 +1,225 @@
+body,html{
+    font-family:'Noto Sans KR', sans-serif;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#fff;
+    color:#000;
+    font-size:30px;
+    font-weight:400;
+    line-height:34px;
+    min-width: 1320px;
+}
+section,div,h1,h2,h3,h4,p,a,ul,li{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+a{
+    color:#000;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
+header{
+    overflow:hidden;
+    height:80px;
+    background-color:#eaac3d;
+}
+header nav{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+header nav h1{
+    float:left;
+}
+header nav .menu{
+    float:right;
+}
+header nav .menu li{
+    display:inline-block;
+    margin-left:60px;
+}
+header nav .menu li a{
+    font-size:25px;
+    line-height:80px;
+}
+.index .v_section01{
+    height:678px;
+    padding-top:155px;
+    background:url(../images/index/visual_bg.png) no-repeat right center #f5f4f5;
+    background-size:auto 100%;
+    text-align:center;
+}
+.index .v_section01 .visual li{
+    position:relative;
+    display:inline-block;
+}
+.index .v_section01 .visual li a{
+    display:block;
+    position:absolute;
+    bottom:75px;
+    left:7px;
+    width:200px;
+    height:60px;
+    border-radius:10px;
+    background-color:#eaac3d;
+    color:#fff;
+    font-size:26px;
+    font-weight:600;
+    line-height:60px;
+}
+.index .v_section01 .btn_list{
+    position:absolute;
+    bottom:60px;
+    left:0;
+    right:0;
+}
+.index .v_section01 .btn_list li{
+    display:inline-block;
+    margin:0 100px;
+}
+.index .v_section01 .btn_list li a{
+    display:block;
+    width:170px;
+    height:70px;
+    border-radius:10px;
+    background-color:#fff;
+    color:#4f4c48;
+    font-size:23px;
+    font-weight:600;
+    line-height:70px;
+}
+.index .v_section02{
+    background-color:#ebebeb;
+    text-align:center;
+    padding:100px 0;
+}
+.index .v_section02 p{
+    margin-top:95px;
+}
+.index .v_section03{
+    background-color:#f5f4f5;
+}
+.index .v_section03 .box{
+    max-width:660px;
+    margin:0 auto;
+    padding:60px 0;
+}
+.index .v_section03 .box > img{
+    margin-top:190px;
+}
+.index .v_section04{
+    background-color:#ebebeb;
+    text-align:center;
+    padding:85px 0 125px;
+}
+.index .v_section04 a{
+    display:block;
+    width:230px;
+    height:80px;
+    border-radius:40px;
+    background-color:#eaac3d;
+    font-size:25px;
+    font-weight:600;
+    line-height:80px;
+    margin:170px auto 0;
+}
+.sub1 .v_section01{
+    background-color:#f5f4f5;
+    text-align:center;
+    padding:115px 0 240px;
+}
+.sub1 .v_section01 h2{
+    position:relative;
+}
+.sub1 .v_section01 img{
+    margin-top:-50px;
+}
+.sub1 .v_section01 h3{
+    display:block;
+    width:230px;
+    height:75px;
+    background-color:#eaac3d;
+    font-weight:600;
+    line-height:75px;
+    margin:50px auto 0;
+}
+.sub1 .v_section01 p{
+    margin-top:30px;
+}
+.sub1 .v_section02{
+    overflow:visible;
+    position:relative;
+    background-color:#ebebeb;
+    text-align:center;
+    padding:0 0 250px;
+}
+.sub1 .v_section03{
+    overflow:visible;
+    position:relative;
+    background-color:#e0e0e0;
+    text-align:center;
+    padding:0 0 250px;
+}
+.sub1 .v_section03 h3.long{
+    width:550px;
+}
+.sub2 .v_section01 p{
+    margin-top:130px;
+}
+.sub2 .v_section02 a{
+    display:block;
+    width:350px;
+    height:120px;
+    border-radius:60px;
+    background-color:#eaac3d;
+    font-size:35px;
+    font-weight:600;
+    line-height:120px;
+    margin:130px auto 0;
+}
+.sub2 .v_section02 p{
+    margin-top:100px;
+}
+.wrap,section{
+    position:relative;
+    overflow:hidden;
+}
+.index .v_section04 p + p,.sub2 .v_section02 img{
+    margin-top:120px;
+}
+.sub1 .v_section01 p + p,.sub1 .v_section02 p,.sub1 .v_section03 p,.sub2 .v_section01 img{
+    margin-top:60px;
+}
+.sub1 .v_section02 h2,.sub1 .v_section03 h2{
+    transform:translateY(-100px);
+}
+.sub1 .v_section02 > img,.sub1 .v_section03 > img{
+    margin-top:55px;
+}
+.sub1 .v_section02 h3,.sub1 .v_section03 h3{
+    display:block;
+    width:400px;
+    height:60px;
+    border-radius:30px;
+    background-color:#f4d090;
+    font-size:25px;
+    font-weight:600;
+    line-height:60px;
+    margin:80px auto 0;
+}
+.sub1 .v_section02 .box,.sub1 .v_section03 .box{
+    margin-top:110px;
+}
+.sub1 .v_section02 .box p,.sub1 .v_section03 .box p{
+    display:inline-block;
+    margin-top:25px;
+}
+.sub2 .v_section01,.sub2 .v_section02{
+    background-color:#f5f4f5;
+    text-align:center;
+    padding:120px 0 150px;
+}
